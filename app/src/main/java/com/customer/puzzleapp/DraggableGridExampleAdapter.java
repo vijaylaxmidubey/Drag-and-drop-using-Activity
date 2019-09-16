@@ -152,7 +152,6 @@ class DraggableGridExampleAdapter
     public void onItemDragFinished(int fromPosition, int toPosition, boolean result) {
         notifyDataSetChanged();
     }
-
     public interface ImageMatchedListener{
         public void onImageMatched() ;
     }

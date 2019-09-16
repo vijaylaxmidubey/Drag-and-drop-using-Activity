@@ -9,7 +9,6 @@ import com.h6ah4i.android.widget.advrecyclerview.swipeable.RecyclerViewSwipeMana
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
 public class ImageProvider extends AbstractDataProvider {
     private List<ConcreteData> mData;
     private List<Bitmap>originalData;
