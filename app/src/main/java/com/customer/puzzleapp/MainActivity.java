@@ -73,9 +73,6 @@ public class MainActivity extends AppCompatActivity implements DraggableGridExam
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mWrappedAdapter);  // requires *wrapped* adapter
         mRecyclerView.setItemAnimator(animator);
-
-        // additional decorations
-        //noinspection StatementWithEmptyBody
         if (supportsViewElevation()) {
             // Lollipop or later has native drop shadow feature. ItemShadowDecorator is not required.
         } else {
