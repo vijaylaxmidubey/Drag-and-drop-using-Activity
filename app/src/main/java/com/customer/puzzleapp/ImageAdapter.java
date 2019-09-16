@@ -130,6 +130,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.MyViewHolder
 
         }
     }
+
     private boolean checkImage(){
         for(int i=0;i<originalData.size();i++){
             if(originalData.get(i) != originalData.get(i))

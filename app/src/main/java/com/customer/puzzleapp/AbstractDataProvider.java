@@ -31,7 +31,6 @@ public abstract class AbstractDataProvider {
 
         public abstract boolean isPinned();
     }
-
     public abstract int getCount();
 
     public abstract Data getItem(int index);

@@ -23,7 +23,6 @@ public class ImageProvider extends AbstractDataProvider {
         mData = new LinkedList<>();
 
         for(int i=0;i<data.size();i++){
-
                 final long id = mData.size();
                 final int viewType = 0;
 
