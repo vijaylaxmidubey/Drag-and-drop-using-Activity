@@ -24,7 +24,7 @@ import java.util.List;
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.MyViewHolder> implements DraggableItemAdapter<ImageAdapter.MyViewHolder>  {
     ArrayList<Bitmap> chunkedImages ;
     private int mLastRemovedPosition = -1;
-    // private List<Bitmap> mData;
+
    private boolean isMatched = false;
     private List<Bitmap>originalData;
     ImageMatchedListener listener;
@@ -41,7 +41,6 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.MyViewHolder
             final int viewType = 0;
 
             final int swipeReaction = RecyclerViewSwipeManager.REACTION_CAN_SWIPE_UP | RecyclerViewSwipeManager.REACTION_CAN_SWIPE_DOWN;
-            //originalData.add(swipeReaction, chunkedImages.get(i));
             originalData.add(chunkedImages.get(i));
 
         }
